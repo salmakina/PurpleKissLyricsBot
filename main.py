@@ -54,5 +54,5 @@ while True:
 
     print("tweeted at: ", time.strftime("%Y-%m-%d %H:%M:%S"))
     print(tweet_choice)
-    time.sleep(3600)  #sleep for 1 hour
+    time.sleep(7200)  #sleep for 1 hour
 
