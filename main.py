@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 print("Current Directory: ", os.getcwd())
 
 #load .env file
-load_dotenv(dotenv_path='C:/Users/salma/Desktop/purple kiss lyrics bot/keys.env')
+load_dotenv(dotenv_path='path/to/your/keys.env')
 
 #check if loaded
 print(f"API_KEY: {os.getenv('API_KEY')}")
